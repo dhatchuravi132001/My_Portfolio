@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhatchana Moorthy Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">DHATCHANA MOORTHY</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">DHATCHANA MOORTHY</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/Dhatchana Img.jpg" alt="Dhatchana  profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">DHATCHANA MOORTHY R</h1>
+        <p class="section__text__p2">Junior Software Developer</p>
+        <div class="typewriter-container">
+        <p>Junior Software Developer</p>
+        </div>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='https://drive.google.com/file/d/15MK_C-dBUqSOhuwRnuwhxQJpJ3IGC9Zh/view?usp=drive_link'"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/dhatchanamoorthyr/'"
+          />
+          <img
+            src="assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/dhatchuravi132001'"
+            target="_blank"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/exp.webp"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>6+ Months <br />Software Developer Intern</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E in Electrical and Electronics Engineer<br />J2EE (Course)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+
+I’m a recent graduate with a strong foundation in full-stack development, particularly in Java-based technologies. Through projects like Institute Registration Application, Student Result Management System and Book sky application. I’ve developed skills in Java, Spring, SQL databases, and web technologies like HTML, CSS, and JavaScript. My experience also includes for both backend and frontend development. I enjoy building robust applications featuring authentication, user access control, and API integrations. Actively seeking remote opportunities, I’m committed to staying current with advancements in software engineering.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+      src="assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='#experience'"
+    />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git & GitHub</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Student Result Management System</h2>
+            <p>I developed a robust Student Result Management System using technologies such as Java, JSP, JDBC, MySQL, Tomcat, HTML, CSS, and JavaScript. This web application efficiently manages student records and academic results, ensuring secure access through login systems designed for both administrators and students. Data storage and retrieval were handled seamlessly using MySQL and JDBC, enabling reliable database operations. Additionally, I deployed the application on Apache Tomcat, creating responsive and user-friendly web pages to enhance the overall user experience. This project strengthened my expertise in full-stack development, authentication mechanisms, and web application deployment.
+              </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/dhatchuravi132001/Student-Result-Management-System'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">BookSky App </h2>
+            <p style="margin-top: 60px;">I developed the BookSky App, a dynamic web application built using HTML, CSS, and JavaScript, allowing users to add books, view detailed information, and efficiently manage their reading lists. The application features a clean, user-friendly interface designed with responsiveness in mind, ensuring smooth functionality across various devices. By focusing on intuitive navigation and interactivity, I enhanced the user experience, enabling seamless interaction with the app’s features. This project highlights my front-end development skills, including responsive design, DOM manipulation, and user-centric design principles.
+  </p>
+            <div class="btn-container" style="margin-top: 97px;">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/dhatchuravi132001/BookSky'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Inventory Management System</h2>
+            <p>I developed an Inventory Management System utilizing HTML, CSS, JavaScript, React.js, Node.js, and MySQL, designed to streamline inventory operations by enabling users to add, update, and remove items efficiently. The front-end, built with React.js, offered a dynamic, responsive interface for an enhanced user experience, while the back-end, powered by Node.js, managed API requests and facilitated seamless communication with the MySQL database. By integrating a robust database solution, I ensured accurate data storage and retrieval. This project showcased my proficiency in full-stack development, API integration, and state management, delivering a comprehensive solution for inventory management.
+              </p>
+            <div class="btn-container" style="margin-top: 25px;">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/dhatchuravi132001/Inventory-Management-System'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <h3>dhatchuravi13@gmail.com</h3>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/dhatchanamoorthyr/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
